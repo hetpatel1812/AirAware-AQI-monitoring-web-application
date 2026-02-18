@@ -119,7 +119,7 @@ AirAware/
 │   │   └── particles.js
 │   └── images/
 │
-├── templates/
+└── templates/
     ├── index.html
     ├── maps.html
     ├── news.html
