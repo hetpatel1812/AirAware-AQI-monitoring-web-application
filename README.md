@@ -94,6 +94,7 @@ A comprehensive **Air Quality Index (AQI) monitoring web application** for India
 AirAware/
 ├── app.py
 ├── requirements.txt
+├── README.md
 │
 ├── data/
 │   └── states_cities.json
