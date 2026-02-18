@@ -120,18 +120,16 @@ AirAware/
 │   └── images/
 │
 ├── templates/
-│   ├── index.html
-│   ├── maps.html
-│   ├── news.html
-│   ├── india_overview.html
-│   ├── about.html
-│   ├── faq.html
-│   ├── contact.html
-│   ├── privacy.html
-│   ├── terms.html
-│   └── base_static.html
-│
-└── tests/
+    ├── index.html
+    ├── maps.html
+    ├── news.html
+    ├── india_overview.html
+    ├── about.html
+    ├── faq.html
+    ├── contact.html
+    ├── privacy.html
+    ├── terms.html
+    └── base_static.html
 ```
 
 ---
