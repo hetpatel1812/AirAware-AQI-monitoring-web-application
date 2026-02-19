@@ -106,30 +106,26 @@ AirAware/
 │   └── vectorizer.pkl
 │
 ├── utils/
+│   ├── __init__.py
 │   ├── aqi_calculator.py
 │   ├── data_fetcher.py
 │   └── news_fetcher.py
 │
 ├── static/
 │   ├── css/style.css
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── maps.js
-│   │   ├── news.js
-│   │   └── particles.js
-│   └── images/
+│   ├── js/main.js
+│   ├── js/maps.js
+│   ├── js/news.js
+│   ├── js/particles.js
+│   └── images/  (all your images)
 │
-└── templates/
-    ├── index.html
-    ├── maps.html
-    ├── news.html
-    ├── india_overview.html
-    ├── about.html
-    ├── faq.html
-    ├── contact.html
-    ├── privacy.html
-    ├── terms.html
-    └── base_static.html
+├── templates/
+│   └── (all .html files)
+│
+└── tests/
+    ├── test_chatbot.py
+    └── test_map_data.py
+
 ```
 
 ---
