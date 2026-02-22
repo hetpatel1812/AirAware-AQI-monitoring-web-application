@@ -135,7 +135,7 @@ AirAware/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/AirAware.git
+git clone https://github.com/hetpatel1812/AirAware.git
 cd AirAware
 ```
 
