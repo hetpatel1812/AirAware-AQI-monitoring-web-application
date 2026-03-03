@@ -4,7 +4,7 @@ import time
 import os
 
 # API Configuration
-NEWSDATA_API_KEY = "pub_a9dc1a8f2a874c5d80069caaf5cec4f9"
+NEWSDATA_API_KEY = "your_key"
 BASE_URL = "https://newsdata.io/api/1/latest"
 
 # Simple in-memory cache
@@ -62,3 +62,4 @@ def fetch_aqi_news():
     except Exception as e:
         print(f"ERROR: Exception fetching news: {e}")
         return []
+
