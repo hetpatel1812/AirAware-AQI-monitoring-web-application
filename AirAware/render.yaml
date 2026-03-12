@@ -1,6 +1,7 @@
 services:
   - type: web
     name: airaware
+    rootDir: Airaware
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn "wsgi:app"
