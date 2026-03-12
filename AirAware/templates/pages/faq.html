@@ -1,0 +1,108 @@
+﻿{% extends "layouts/base.html" %}
+
+{% block title %}FAQ – AirAware{% endblock %}
+{% block meta_description %}Frequently asked questions about air quality, AQI measurements, health impacts, and how to use AirAware.{% endblock %}
+
+{% block content %}
+<div class="static-hero">
+    <h1 class="static-page-title">Frequently Asked <span class="highlight">Questions</span></h1>
+    <p class="static-subtitle">Everything you need to know about AQI and our platform</p>
+</div>
+
+<div class="faq-container">
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>What is AQI?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>AQI (Air Quality Index) is a standardized indicator used to report air quality levels. It transforms complex pollutant concentration data into a single number between 0 and 500. The higher the AQI, the greater the level of air pollution and the greater the health concern.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>How is AQI calculated in India?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>India uses the National AQI (AQI-IN) developed by CPCB. It considers eight pollutants: PM2.5, PM10, NO₂, SO₂, CO, O₃, NH₃, and Pb. A sub-index is calculated for each pollutant, and the highest sub-index becomes the overall AQI. This ensures the most harmful pollutant drives the reported value.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>What do the AQI categories mean?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p><strong>Good (0–50):</strong> Air quality is satisfactory with minimal health risk.<br>
+            <strong>Satisfactory (51–100):</strong> Acceptable; minor concern for sensitive individuals.<br>
+            <strong>Moderate (101–200):</strong> May cause breathing issues for people with lung or heart conditions.<br>
+            <strong>Poor (201–300):</strong> Causes breathing discomfort for most people on prolonged exposure.<br>
+            <strong>Very Poor (301–400):</strong> Can cause respiratory illness with prolonged exposure.<br>
+            <strong>Severe (401–500):</strong> Health emergency; affects the entire population seriously.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>What is PM2.5 and why is it dangerous?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>PM2.5 refers to particulate matter smaller than 2.5 micrometers in diameter — about 30 times thinner than a human hair. These particles can penetrate deep into the lungs and enter the bloodstream, causing respiratory and cardiovascular diseases, and have been linked to cancer and premature death.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>How often is the AQI data updated?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Our platform provides real-time AQI data that is updated regularly throughout the day. The frequency depends on the monitoring station's reporting interval, typically ranging from every 15 minutes to every hour.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>What precautions should I take during high AQI?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>During high AQI levels (above 200), you should: limit outdoor activities especially strenuous exercise, keep windows and doors closed, use air purifiers indoors if available, wear N95 or FFP2 masks when outdoors, stay hydrated, and monitor symptoms especially if you have asthma or respiratory conditions.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>Why is Delhi's AQI always so high?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Delhi's high AQI is caused by a combination of factors: vehicular emissions from millions of vehicles, nearby industrial pollution, construction dust, seasonal crop burning (stubble burning) in Punjab and Haryana, geographic factors (land-locked location that traps pollutants), and temperature inversions during winter that prevent pollution dispersal.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <h3>How can I search for my city's AQI?</h3>
+            <span class="faq-toggle">+</span>
+        </div>
+        <div class="faq-answer">
+            <p>Use the search bar at the top of the page to type your city name. Our platform covers hundreds of cities across all Indian states. Simply type the city name and select from the dropdown results to view detailed AQI information, pollutant levels, weather data, and health advisories.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+function toggleFaq(el) {
+    const item = el.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    // Close all others
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+}
+</script>
+{% endblock %}

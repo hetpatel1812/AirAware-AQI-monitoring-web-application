@@ -1,0 +1,230 @@
+{
+    "pm25": [
+        {
+            "low_conc": 0,
+            "high_conc": 30,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 31,
+            "high_conc": 60,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 61,
+            "high_conc": 90,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 91,
+            "high_conc": 120,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 121,
+            "high_conc": 250,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 251,
+            "high_conc": 500,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ],
+    "pm10": [
+        {
+            "low_conc": 0,
+            "high_conc": 50,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 51,
+            "high_conc": 100,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 101,
+            "high_conc": 250,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 251,
+            "high_conc": 350,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 351,
+            "high_conc": 430,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 431,
+            "high_conc": 600,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ],
+    "no2": [
+        {
+            "low_conc": 0,
+            "high_conc": 40,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 41,
+            "high_conc": 80,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 81,
+            "high_conc": 180,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 181,
+            "high_conc": 280,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 281,
+            "high_conc": 400,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 401,
+            "high_conc": 1000,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ],
+    "so2": [
+        {
+            "low_conc": 0,
+            "high_conc": 40,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 41,
+            "high_conc": 80,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 81,
+            "high_conc": 380,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 381,
+            "high_conc": 800,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 801,
+            "high_conc": 1600,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 1601,
+            "high_conc": 2400,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ],
+    "co": [
+        {
+            "low_conc": 0,
+            "high_conc": 1,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 1.1,
+            "high_conc": 2,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 2.1,
+            "high_conc": 10,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 10.1,
+            "high_conc": 17,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 17.1,
+            "high_conc": 34,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 34.1,
+            "high_conc": 50,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ],
+    "o3": [
+        {
+            "low_conc": 0,
+            "high_conc": 50,
+            "low_aqi": 0,
+            "high_aqi": 50
+        },
+        {
+            "low_conc": 51,
+            "high_conc": 100,
+            "low_aqi": 51,
+            "high_aqi": 100
+        },
+        {
+            "low_conc": 101,
+            "high_conc": 168,
+            "low_aqi": 101,
+            "high_aqi": 200
+        },
+        {
+            "low_conc": 169,
+            "high_conc": 208,
+            "low_aqi": 201,
+            "high_aqi": 300
+        },
+        {
+            "low_conc": 209,
+            "high_conc": 748,
+            "low_aqi": 301,
+            "high_aqi": 400
+        },
+        {
+            "low_conc": 749,
+            "high_conc": 1000,
+            "low_aqi": 401,
+            "high_aqi": 500
+        }
+    ]
+}
