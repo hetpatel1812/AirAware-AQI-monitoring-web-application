@@ -3,7 +3,7 @@
 A comprehensive **Air Quality Index (AQI) monitoring web application** for Indian cities. Built with Flask, AirAware provides pollutant data, weather information, an interactive map, AQI-related news, and an AI-powered chatbot — all wrapped in a modern, animated UI.
 
 ---
-
+  
 ## ✨ Features
 
 ### 🏠 AQI Dashboard (Home)
